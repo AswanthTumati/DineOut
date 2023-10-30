@@ -43,7 +43,7 @@ const FoodItems = () => {
         }}>
 
       
-      {result.hits.length > 0 ? <Products data={result.hits} /> : <p>Error... fetching Data</p>}
+      {result.hits.length > 0 ? <Products data={result.hits} /> : <p>... fetching Data</p>}
       </div>
     </div>
   );
