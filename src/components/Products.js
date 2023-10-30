@@ -36,7 +36,9 @@ const Products = ({data}) => {
                                 <h5 className='card-title'>{item.recipe.label}</h5>
                                 <p className='card-text'>Calaries gain : {Math.round(item.recipe.calories)}</p>
                                 <p className='card-text'>Price: ₹{item.price}</p>
-                                <a href='#' className='btn btn-warning' onClick={()=>addCart(item)}>Add</a>
+                                {/*<a href='#' className='btn btn-warning' onClick={()=>addCart(item)}>Add</a>*/}
+                                <button className='btn btn-warning' onClick={() => addCart(item)}>Add</button>
+
                             </center>
                         </div>
                     </div>

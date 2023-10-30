@@ -3,12 +3,12 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Im
 import './App.css';
 import Search from './components/Search';
 import { FoodContext } from './components/FoodContext';
-import { createContext, useState } from 'react';
+import { useState } from 'react';
 import FoodItems from './components/FoodItems';
 import Navbar from './components/Navbar';
 import CartPage from './components/CartPage';
-import Products from './components/Products';
-import PaymentPage from './components/PaymentPage';
+//import Products from './components/Products';
+//import PaymentPage from './components/PaymentPage';
 import PaymentPageWrapper from './components/PaymentPage'; // Update the path accordingly
 import OrderPlacedPage from './components/OrderPlacedPage';
 

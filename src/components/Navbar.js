@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { ShoppingCartOutlined} from '@ant-design/icons';
 
 const Navbar = () => {
-    const {cartItems, setCartItems} = useContext(FoodContext);
+    const {cartItems} = useContext(FoodContext);
     const cartLength = cartItems.length;
   return (
     <div>

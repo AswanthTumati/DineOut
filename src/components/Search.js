@@ -3,7 +3,7 @@ import { FoodContext } from './FoodContext';
 
 const Search = () => {
     let [searchInput, setSearchInput] = useState('');
-    const {searchItem, setSearchItem} = useContext(FoodContext)
+    const { setSearchItem} = useContext(FoodContext)
     let handleSearchText = (event)=>{
         setSearchInput(event.target.value)
         //console.log(searchInput)
